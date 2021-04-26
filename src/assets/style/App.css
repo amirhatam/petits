@@ -72,9 +72,7 @@ p {
 }
 
 
-.logo {
-    margin: 0 10vmax;
-}
+
 
 .b1 {
     font-family: 'Pacifico', cursive;
@@ -188,8 +186,8 @@ p {
 
 .rainbow {
   
-   
-   font-family: 'Pacifico', cursive;
+    margin: 0 8vmax;
+   /* font-family: 'Pacifico', cursive; */
    text-shadow: 2px 2px 4px #000000;
    font-size:40px;
    
@@ -235,6 +233,7 @@ p {
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   } 
+  
    @-moz-keyframes rainbow {
       0%{background-position:0% 82%}
       50%{background-position:100% 19%}
@@ -245,4 +244,6 @@ p {
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   } 
-  
+  .logo {
+    font-size: 6rem !important;
+  }

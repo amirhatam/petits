@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import './assets/style/App.css'
 import Circle from "./components/Circle.jsx"
 import Winner from "./assets/pic/winner.gif"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -177,7 +177,7 @@ class App extends React.Component {
 
                  
                   <span className="spanP1">{this.state.numDee}</span>
-                  <i className="fas fa-chess-knight logo "></i>
+                  <i className="fas fa-chess-knight rainbow logo "></i>
 
                   <span className="spanP2">{this.state.numDee2}</span>
                   <p className="rainbow">Petit Chevaux</p>

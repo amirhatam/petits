@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Circle.css'
+
 
 class Circle extends Component {
     render() {
