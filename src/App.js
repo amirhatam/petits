@@ -3,6 +3,7 @@ import './assets/style/App.css'
 import Circle from "./components/Circle.jsx"
 import Winner from "./assets/pic/winner.gif"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/Header";
 
 
 class App extends React.Component {
@@ -112,6 +113,7 @@ class App extends React.Component {
   }
 
   renderVictory() {
+    
     if (this.state.player1Tokens.indexOf(false) === -1) {
       return (<div className="winner" >
         <p className="pWins"> <span className="spanP1">Player 1</span> Wins !</p>
@@ -125,8 +127,8 @@ class App extends React.Component {
 
     } else {
       return (
-        
         <div className=" bg-g">
+          <Header/>
           <div className="offset-2 py-4">
           <div  id="jeu">
 
