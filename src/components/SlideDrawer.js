@@ -7,19 +7,19 @@ function SideDrawer(props) {
        <Drawer anchor="left" open={open} onClose={()=> onClose(false)}>
            <List component="nav">
                <ListItem button onClick={() => console.log("Featured")}>
-               <a href="https://github.com/amirhatam" target="_blank"><i class="fab fa-github"></i></a>
+               <a href="https://github.com/amirhatam" ><i class="fab fa-github"></i></a>
                </ListItem>
 
                <ListItem button onClick={() => console.log("Venue NFO")}>
-               <a href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/" ><i class="fab fa-linkedin"></i></a>
                </ListItem>
 
                <ListItem button onClick={() => console.log("Highlights")}>
-               <a href="tel:07 68 57 35 81" class="a-footer" title="07 68 57 35 81"><i class="fas fa-phone-square" aria-hidden="true"></i></a>
+               <a href="tel:07 68 57 35 81" class="a-footer" title="07 68 57 35 81"><i class="fas fa-phone-square" ></i></a>
                </ListItem>
 
                <ListItem button onClick={() => console.log("Location")}>
-               <a href="mailto:amirhatam136@gmail.com" class="a-footer" title="amirhatam136@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+               <a href="mailto:amirhatam136@gmail.com" class="a-footer" title="amirhatam136@gmail.com"><i class="fas fa-envelope"></i></a>
                </ListItem>
            </List>
        </Drawer>
